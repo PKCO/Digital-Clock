@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, #1a1a2e, #16213e);
+    background: linear-gradient(45deg, #6b6b91, #284186);
     margin: 0;
     font-family: 'Orbitron', sans-serif;
     overflow: hidden;
@@ -35,11 +35,11 @@ body {
 
 /* Styling for each time segment (hours, minutes, seconds) */
 .time-segment {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 15px;
     min-width: 100px;
-    color: #00ff9f;
+    color: #2e355c;
     font-size: 4rem;
     font-weight: bold;
     position: relative;
@@ -59,7 +59,7 @@ body {
     bottom: -25px;
     left: 0;
     width: 100%;
-    color: #4eb8dd;
+    color: #417486;
     font-size: 0.8rem;
     text-transform: uppercase;
 }
@@ -67,7 +67,7 @@ body {
 /* Styling for the date text */
 .date {
     margin-top: 20px;
-    color: #4eb8dd;
+    color: #28d1d1;
     font-size: 1.2rem;
     letter-spacing: 2px;
 }
