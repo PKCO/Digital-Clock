@@ -8,8 +8,8 @@ function updateClock() {
     const seconds = now.getSeconds().toString().padStart(2, '0');
 
     // Arrays to get the name of the day and month
-    const days = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
-    const months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'Oktober', 'November', 'December'];
 
     // Update the clock's time segments (hours, minutes, seconds)
     document.getElementById('hours').textContent = hours;
